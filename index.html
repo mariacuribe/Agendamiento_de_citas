@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="shortcut icon" type="image/jpg" href="assets/JavaScript-logo.png"/>
-  </head>
-  <body>
-    <h1>Bienvenido al sistema de gestión de usuarios</h1>
-    <a href="/pages/reto.html">Leer reto:</a>
-    <div class="tarjeta" id="usuario-permanente">
-      <h3>Kevin Pérez</h3>
-      <p>Edad: 23 años</p>
-      <p>Ocupación: Frontend Engineer</p>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamiento de Citas</title>
+    <link rel="stylesheet" href="./Style.css" />
+</head>
+<body>
+    <h1>Agendamiento de Citas</h1>
+   
+    <form id="citaForm" class="form">
+        <div class="nombreForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required class="inputName">
+        </div>
+        <div class="fechaForm">
+            <label for="fechaHora">Fecha y Hora de la Cita:</label>
+            <input type="datetime-local" id="fechaHora" required>
+        </div>
+        <button type="button" onclick="agregarCita()">Agendar Cita</button>
+    </form>
+    
+    <div id="listaCitas" class="lista"></div>
 
-    <!-- <script src="./js/index.js" type="module"></script> -->
-  </body>
+    <script src="./Scrip.js"></script>
+</body>
 </html>

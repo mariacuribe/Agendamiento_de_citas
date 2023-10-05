@@ -1,6 +1,8 @@
-# Agendamiento_de_citas
-Haga una aplicación de agendamiento de citas. La aplicación debe contener dos campos en los que pueda introducir los  siguientes datos:
-Nombre
-Fecha y hora de la cita
-No debe seguir ningún formato en especial
-La aplicación debe mostrar cada cita creada listada en tarjetas. Únicamente debe mostrarse cada tarjeta a medida que se van creando las citas. No debe haber funcionalidad de borrar o editar las tarjetas
+# Agendamiento-Citas
+
+Crea una aplicacion de agendamiento de citas. la aplicacion debe contener 2 campos en los que pueda introducir los siguientes datos:
+1. Nombre
+2. Fecha y hora de la cita.
+
+La aplicacion debe de mostrar cada cita creada listada en tarjetas.
+unicamente debe mostrarse cada tarjeta a medida que se van creando las citas. no tiene q haber funcionalidad de editar o borrar.
